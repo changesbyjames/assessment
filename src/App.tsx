@@ -7,7 +7,7 @@ import { CurrencyProvider } from './services/currency/CurrencyProvider';
 
 function App() {
   return (
-    <main className="text-primary-std">
+    <main>
       <Suspense fallback={<div>Loading...</div>}>
         <APIProvider>
           <CurrencyProvider>
